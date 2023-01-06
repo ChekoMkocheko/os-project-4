@@ -1,5 +1,10 @@
 authors: Ian & Cheko
 
+This program imitates the working of a linker in libc.
+It fills the right address of named functions from the 
+global offset table to be used by the program currently running.
+Below is the description that shows the working of the program.
+
 Our script:
 We demonstrate the linking worked by going to the first occurence of puts,
 and checking to see if the linking code is called after, or if puts is called.
